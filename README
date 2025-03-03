@@ -8,9 +8,9 @@ s ko database ka sath connection banana ka lia use kia hai
 change alembic url in alembic.init file  peast neon tech url
 step 3 
 every change in models run following commands:
-- uv run alembic revision --autogenerate -m "create history
+- alembic revision --autogenerate -m "create history
 table" "
-- uv run alembic upgrade head
+- alembic upgrade head
 
    full information:
    FastAPI To-Do App with Alembic and PostgreSQL
