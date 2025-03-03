@@ -1,3 +1,10 @@
+this command is use for createing and changeing for every table, column, 
+
+alembic revision --autogenerate -m "create history table"
+alembic upgrade head
+
+
+
 Generic single-database configuration.
 install first step
 3 alembic init alembic # init ka agy project ka name dalna hai hum na project ka name bhi alembic rakha hai 
@@ -19,6 +26,7 @@ To set up the project with Alembic and PostgreSQL, install the required dependen
 
 uv add alembic
 uv add psycopg2-binary
+
 New Project Setup
 Follow these steps to initialize Alembic and configure it for database migrations:
 
