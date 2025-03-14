@@ -10,7 +10,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
 
-
+# s code mn ak problum hai jis ka mujhy pta ni chl raha hai wo ya kayaboht zeada metadata da raha hai agr s pr content only ka fun use krty hain to errorr ata hai 
 
 
 app = FastAPI()
