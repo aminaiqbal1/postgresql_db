@@ -12,7 +12,7 @@ install first step
 1 pip install alembic
 step 2 
 s ko database ka sath connection banana ka lia use kia hai 
-change alembic url in alembic.init file  peast neon tech url
+change sqlalchemy.url url in alembic.init file  peast neon tech url
 step 3 
 every change in models run following commands:
 - alembic revision --autogenerate -m "create history
