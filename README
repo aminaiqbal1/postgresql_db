@@ -66,3 +66,12 @@ Apply Migrations
 
 uv run alembic upgrade head
 This will create and apply the necessary database schema changes based on your models.
+
+# point
+S mn theen kaam krty hain sql mn  
+1 first connection banaty hain 
+2 second schema  banty hain i meant table banty hain us mn column difine krty hain 
+3 theird CRUD apply krty hain 
+
+NOTE : alembic KO HUM USE KRTY HAIN table ko neon tech ka database ka sath connect krna ka lia 
+or SQLchemy ko hum use krty hain hain fastapi mn crud applay krna ka lia. s ka lia hum config ka folder banaty hain us mn database.py ka name say ak file banty hain 
