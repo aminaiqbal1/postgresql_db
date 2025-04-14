@@ -1,3 +1,5 @@
+
+# use FOR one table 
 from models.tabels import Post
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
