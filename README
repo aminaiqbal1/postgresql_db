@@ -8,7 +8,14 @@ alembic upgrade head
 Generic single-database configuration.
 install first step
 3 alembic init alembic # init ka agy project ka name dalna hai hum na project ka name bhi alembic rakha hai 
-2 pip install psycopg2
+2 pip install psycopg2  
+
+➡️ It installs PostgreSQL driver for Python.
+➡️ You need it to connect your Python app to a PostgreSQL database.
+
+🟢 Use when:
+
+Your database is PostgreSQL, and you want to read/write data from Python.
 1 pip install alembic
 step 2 
 s ko database ka sath connection banana ka lia use kia hai 
